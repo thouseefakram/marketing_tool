@@ -27,7 +27,8 @@ class UserRegistrationView(APIView):
                 'message': 'User registered successfully',
                 'user': {
                     'email': user.email,
-                    'full_name': user.full_name
+                    'full_name': user.full_name,
+                    'language': user.language
                 },
                 'token': token
             }, status=status.HTTP_201_CREATED)
