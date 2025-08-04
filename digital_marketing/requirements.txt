@@ -4,4 +4,10 @@ python-dotenv
 djangorestframework
 django-cors-headers
 PyJWT
+requests
+facebook-business
+google-auth-oauthlib
+google-auth
+dj-database-url
+python-decouple
 
